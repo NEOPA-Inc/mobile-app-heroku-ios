@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C5E48122B162F700D8BB87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E48022B162F700D8BB87 /* AppDelegate.swift */; };
+		09C5E48622B162F700D8BB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E48422B162F700D8BB87 /* Main.storyboard */; };
+		09C5E48822B162F800D8BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E48722B162F800D8BB87 /* Assets.xcassets */; };
+		09C5E48B22B162F800D8BB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E48922B162F800D8BB87 /* LaunchScreen.storyboard */; };
+		09C5E49322B166CA00D8BB87 /* Coupon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E49222B166CA00D8BB87 /* Coupon.storyboard */; };
+		09C5E49522B1673C00D8BB87 /* MemberCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E49422B1673C00D8BB87 /* MemberCard.storyboard */; };
+		09C5E49722B1678500D8BB87 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E49622B1678500D8BB87 /* Info.storyboard */; };
+		09C5E49922B16AE000D8BB87 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E49822B16AE000D8BB87 /* BaseViewController.swift */; };
+		09C5E49B22B16C4100D8BB87 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E49A22B16C4100D8BB87 /* CouponViewController.swift */; };
+		09C5E49D22B16C6700D8BB87 /* MemberCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E49C22B16C6700D8BB87 /* MemberCardViewController.swift */; };
+		09C5E49F22B16C9100D8BB87 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E49E22B16C9100D8BB87 /* InfoViewController.swift */; };
+		09C5E4A122B1723E00D8BB87 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E4A022B1723E00D8BB87 /* MainTabBarController.swift */; };
+		09C5E4A522B17D1A00D8BB87 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C5E47D22B162F700D8BB87 /* neopa-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "neopa-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C5E48022B162F700D8BB87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09C5E48522B162F700D8BB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09C5E48722B162F800D8BB87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C5E48A22B162F800D8BB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09C5E48C22B162F800D8BB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C5E49222B166CA00D8BB87 /* Coupon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Coupon.storyboard; sourceTree = "<group>"; };
+		09C5E49422B1673C00D8BB87 /* MemberCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemberCard.storyboard; sourceTree = "<group>"; };
+		09C5E49622B1678500D8BB87 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		09C5E49822B16AE000D8BB87 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		09C5E49A22B16C4100D8BB87 /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		09C5E49C22B16C6700D8BB87 /* MemberCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCardViewController.swift; sourceTree = "<group>"; };
+		09C5E49E22B16C9100D8BB87 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		09C5E4A022B1723E00D8BB87 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C5E47A22B162F700D8BB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C5E47422B162F700D8BB87 = {
+			isa = PBXGroup;
+			children = (
+				09C5E47F22B162F700D8BB87 /* neopa-shop */,
+				09C5E47E22B162F700D8BB87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C5E47E22B162F700D8BB87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E47D22B162F700D8BB87 /* neopa-shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C5E47F22B162F700D8BB87 /* neopa-shop */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E48022B162F700D8BB87 /* AppDelegate.swift */,
+				09C5E49822B16AE000D8BB87 /* BaseViewController.swift */,
+				09C5E4A622B17FBE00D8BB87 /* MainTab */,
+				09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */,
+				09C5E4A922B1801900D8BB87 /* MemberCard */,
+				09C5E4A822B17FFB00D8BB87 /* Coupon */,
+				09C5E4A722B17FE100D8BB87 /* Info */,
+				09C5E48722B162F800D8BB87 /* Assets.xcassets */,
+				09C5E48922B162F800D8BB87 /* LaunchScreen.storyboard */,
+				09C5E48C22B162F800D8BB87 /* Info.plist */,
+			);
+			path = "neopa-shop";
+			sourceTree = "<group>";
+		};
+		09C5E4A622B17FBE00D8BB87 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E4A022B1723E00D8BB87 /* MainTabBarController.swift */,
+				09C5E48422B162F700D8BB87 /* Main.storyboard */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		09C5E4A722B17FE100D8BB87 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E49E22B16C9100D8BB87 /* InfoViewController.swift */,
+				09C5E49622B1678500D8BB87 /* Info.storyboard */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		09C5E4A822B17FFB00D8BB87 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E49A22B16C4100D8BB87 /* CouponViewController.swift */,
+				09C5E49222B166CA00D8BB87 /* Coupon.storyboard */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		09C5E4A922B1801900D8BB87 /* MemberCard */ = {
+			isa = PBXGroup;
+			children = (
+				09C5E49C22B16C6700D8BB87 /* MemberCardViewController.swift */,
+				09C5E49422B1673C00D8BB87 /* MemberCard.storyboard */,
+			);
+			path = MemberCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C5E47C22B162F700D8BB87 /* neopa-shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C5E48F22B162F800D8BB87 /* Build configuration list for PBXNativeTarget "neopa-shop" */;
+			buildPhases = (
+				09C5E47922B162F700D8BB87 /* Sources */,
+				09C5E47A22B162F700D8BB87 /* Frameworks */,
+				09C5E47B22B162F700D8BB87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "neopa-shop";
+			productName = "neopa-shop";
+			productReference = 09C5E47D22B162F700D8BB87 /* neopa-shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C5E47522B162F700D8BB87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					09C5E47C22B162F700D8BB87 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 09C5E47822B162F700D8BB87 /* Build configuration list for PBXProject "neopa-shop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C5E47422B162F700D8BB87;
+			productRefGroup = 09C5E47E22B162F700D8BB87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C5E47C22B162F700D8BB87 /* neopa-shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C5E47B22B162F700D8BB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C5E49722B1678500D8BB87 /* Info.storyboard in Resources */,
+				09C5E49522B1673C00D8BB87 /* MemberCard.storyboard in Resources */,
+				09C5E49322B166CA00D8BB87 /* Coupon.storyboard in Resources */,
+				09C5E48B22B162F800D8BB87 /* LaunchScreen.storyboard in Resources */,
+				09C5E48822B162F800D8BB87 /* Assets.xcassets in Resources */,
+				09C5E48622B162F700D8BB87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C5E47922B162F700D8BB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C5E49B22B16C4100D8BB87 /* CouponViewController.swift in Sources */,
+				09C5E48122B162F700D8BB87 /* AppDelegate.swift in Sources */,
+				09C5E4A522B17D1A00D8BB87 /* UIColorExtension.swift in Sources */,
+				09C5E4A122B1723E00D8BB87 /* MainTabBarController.swift in Sources */,
+				09C5E49922B16AE000D8BB87 /* BaseViewController.swift in Sources */,
+				09C5E49F22B16C9100D8BB87 /* InfoViewController.swift in Sources */,
+				09C5E49D22B16C6700D8BB87 /* MemberCardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09C5E48422B162F700D8BB87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C5E48522B162F700D8BB87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09C5E48922B162F800D8BB87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C5E48A22B162F800D8BB87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C5E48D22B162F800D8BB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C5E48E22B162F800D8BB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C5E49022B162F800D8BB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8T3PN7HXY;
+				INFOPLIST_FILE = "neopa-shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neopa.neopa-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C5E49122B162F800D8BB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8T3PN7HXY;
+				INFOPLIST_FILE = "neopa-shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neopa.neopa-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C5E47822B162F700D8BB87 /* Build configuration list for PBXProject "neopa-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C5E48D22B162F800D8BB87 /* Debug */,
+				09C5E48E22B162F800D8BB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C5E48F22B162F800D8BB87 /* Build configuration list for PBXNativeTarget "neopa-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C5E49022B162F800D8BB87 /* Debug */,
+				09C5E49122B162F800D8BB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C5E47522B162F700D8BB87 /* Project object */;
+}
