@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096FA73822B2B86B006575BC /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096FA73722B2B86B006575BC /* CouponTableViewCell.swift */; };
 		09C5E48122B162F700D8BB87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E48022B162F700D8BB87 /* AppDelegate.swift */; };
 		09C5E48622B162F700D8BB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E48422B162F700D8BB87 /* Main.storyboard */; };
 		09C5E48822B162F800D8BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C5E48722B162F800D8BB87 /* Assets.xcassets */; };
@@ -20,9 +21,23 @@
 		09C5E49F22B16C9100D8BB87 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E49E22B16C9100D8BB87 /* InfoViewController.swift */; };
 		09C5E4A122B1723E00D8BB87 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E4A022B1723E00D8BB87 /* MainTabBarController.swift */; };
 		09C5E4A522B17D1A00D8BB87 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */; };
+		09ED272E22B42B2C00AEA60F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED272D22B42B2C00AEA60F /* CustomView.swift */; };
+		09ED273322B5636200AEA60F /* SelectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED272F22B5636100AEA60F /* SelectionListViewController.swift */; };
+		09ED273422B5636200AEA60F /* PickerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED273022B5636200AEA60F /* PickerButtonView.swift */; };
+		09ED273522B5636200AEA60F /* SelectionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED273122B5636200AEA60F /* SelectionListViewController.xib */; };
+		09ED273622B5636200AEA60F /* PickerButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED273222B5636200AEA60F /* PickerButtonView.xib */; };
+		09ED273A22B563D800AEA60F /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED273822B563D800AEA60F /* SelectionTableViewCell.swift */; };
+		09ED273B22B563D800AEA60F /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED273922B563D800AEA60F /* SelectionTableViewCell.xib */; };
+		09ED2E4222B5657400AEA60F /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED2E3D22B5657400AEA60F /* CustomPresentationController.swift */; };
+		09ED2E4322B5657400AEA60F /* SingleButtonAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED2E3E22B5657400AEA60F /* SingleButtonAlertViewController.xib */; };
+		09ED2E4422B5657400AEA60F /* SelectableAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED2E3F22B5657400AEA60F /* SelectableAlertViewController.xib */; };
+		09ED2E4522B5657400AEA60F /* SingleButtonAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED2E4022B5657400AEA60F /* SingleButtonAlertViewController.swift */; };
+		09ED2E4622B5657400AEA60F /* SelectableAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED2E4122B5657400AEA60F /* SelectableAlertViewController.swift */; };
+		09ED2E4822B5663F00AEA60F /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED2E4722B5663F00AEA60F /* ColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096FA73722B2B86B006575BC /* CouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
 		09C5E47D22B162F700D8BB87 /* neopa-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "neopa-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C5E48022B162F700D8BB87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09C5E48522B162F700D8BB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +53,19 @@
 		09C5E49E22B16C9100D8BB87 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		09C5E4A022B1723E00D8BB87 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		09ED272D22B42B2C00AEA60F /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		09ED272F22B5636100AEA60F /* SelectionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionListViewController.swift; sourceTree = "<group>"; };
+		09ED273022B5636200AEA60F /* PickerButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerButtonView.swift; sourceTree = "<group>"; };
+		09ED273122B5636200AEA60F /* SelectionListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionListViewController.xib; sourceTree = "<group>"; };
+		09ED273222B5636200AEA60F /* PickerButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerButtonView.xib; sourceTree = "<group>"; };
+		09ED273822B563D800AEA60F /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		09ED273922B563D800AEA60F /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
+		09ED2E3D22B5657400AEA60F /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		09ED2E3E22B5657400AEA60F /* SingleButtonAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleButtonAlertViewController.xib; sourceTree = "<group>"; };
+		09ED2E3F22B5657400AEA60F /* SelectableAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectableAlertViewController.xib; sourceTree = "<group>"; };
+		09ED2E4022B5657400AEA60F /* SingleButtonAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleButtonAlertViewController.swift; sourceTree = "<group>"; };
+		09ED2E4122B5657400AEA60F /* SelectableAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableAlertViewController.swift; sourceTree = "<group>"; };
+		09ED2E4722B5663F00AEA60F /* ColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +101,7 @@
 				09C5E48022B162F700D8BB87 /* AppDelegate.swift */,
 				09C5E49822B16AE000D8BB87 /* BaseViewController.swift */,
 				09C5E4A622B17FBE00D8BB87 /* MainTab */,
-				09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */,
+				09ED273722B5638800AEA60F /* UI */,
 				09C5E4A922B1801900D8BB87 /* MemberCard */,
 				09C5E4A822B17FFB00D8BB87 /* Coupon */,
 				09C5E4A722B17FE100D8BB87 /* Info */,
@@ -107,6 +135,7 @@
 			children = (
 				09C5E49A22B16C4100D8BB87 /* CouponViewController.swift */,
 				09C5E49222B166CA00D8BB87 /* Coupon.storyboard */,
+				096FA73722B2B86B006575BC /* CouponTableViewCell.swift */,
 			);
 			path = Coupon;
 			sourceTree = "<group>";
@@ -118,6 +147,35 @@
 				09C5E49422B1673C00D8BB87 /* MemberCard.storyboard */,
 			);
 			path = MemberCard;
+			sourceTree = "<group>";
+		};
+		09ED273722B5638800AEA60F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				09ED273C22B5650000AEA60F /* Alert */,
+				09C5E4A422B17D1A00D8BB87 /* UIColorExtension.swift */,
+				09ED272D22B42B2C00AEA60F /* CustomView.swift */,
+				09ED273022B5636200AEA60F /* PickerButtonView.swift */,
+				09ED273222B5636200AEA60F /* PickerButtonView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		09ED273C22B5650000AEA60F /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				09ED2E3D22B5657400AEA60F /* CustomPresentationController.swift */,
+				09ED2E4122B5657400AEA60F /* SelectableAlertViewController.swift */,
+				09ED2E3F22B5657400AEA60F /* SelectableAlertViewController.xib */,
+				09ED2E4022B5657400AEA60F /* SingleButtonAlertViewController.swift */,
+				09ED2E3E22B5657400AEA60F /* SingleButtonAlertViewController.xib */,
+				09ED272F22B5636100AEA60F /* SelectionListViewController.swift */,
+				09ED2E4722B5663F00AEA60F /* ColorButton.swift */,
+				09ED273822B563D800AEA60F /* SelectionTableViewCell.swift */,
+				09ED273922B563D800AEA60F /* SelectionTableViewCell.xib */,
+				09ED273122B5636200AEA60F /* SelectionListViewController.xib */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +236,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C5E49722B1678500D8BB87 /* Info.storyboard in Resources */,
+				09ED2E4422B5657400AEA60F /* SelectableAlertViewController.xib in Resources */,
+				09ED273522B5636200AEA60F /* SelectionListViewController.xib in Resources */,
+				09ED273622B5636200AEA60F /* PickerButtonView.xib in Resources */,
 				09C5E49522B1673C00D8BB87 /* MemberCard.storyboard in Resources */,
 				09C5E49322B166CA00D8BB87 /* Coupon.storyboard in Resources */,
 				09C5E48B22B162F800D8BB87 /* LaunchScreen.storyboard in Resources */,
 				09C5E48822B162F800D8BB87 /* Assets.xcassets in Resources */,
+				09ED273B22B563D800AEA60F /* SelectionTableViewCell.xib in Resources */,
 				09C5E48622B162F700D8BB87 /* Main.storyboard in Resources */,
+				09ED2E4322B5657400AEA60F /* SingleButtonAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,12 +256,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09ED273A22B563D800AEA60F /* SelectionTableViewCell.swift in Sources */,
+				09ED273422B5636200AEA60F /* PickerButtonView.swift in Sources */,
 				09C5E49B22B16C4100D8BB87 /* CouponViewController.swift in Sources */,
+				09ED2E4222B5657400AEA60F /* CustomPresentationController.swift in Sources */,
+				09ED272E22B42B2C00AEA60F /* CustomView.swift in Sources */,
 				09C5E48122B162F700D8BB87 /* AppDelegate.swift in Sources */,
 				09C5E4A522B17D1A00D8BB87 /* UIColorExtension.swift in Sources */,
+				09ED2E4822B5663F00AEA60F /* ColorButton.swift in Sources */,
+				096FA73822B2B86B006575BC /* CouponTableViewCell.swift in Sources */,
+				09ED273322B5636200AEA60F /* SelectionListViewController.swift in Sources */,
+				09ED2E4522B5657400AEA60F /* SingleButtonAlertViewController.swift in Sources */,
 				09C5E4A122B1723E00D8BB87 /* MainTabBarController.swift in Sources */,
 				09C5E49922B16AE000D8BB87 /* BaseViewController.swift in Sources */,
 				09C5E49F22B16C9100D8BB87 /* InfoViewController.swift in Sources */,
+				09ED2E4622B5657400AEA60F /* SelectableAlertViewController.swift in Sources */,
 				09C5E49D22B16C6700D8BB87 /* MemberCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +424,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/neopa-shop/UI/Alert/ios/Pods/JB4ASDK/JB4A-SDK",
+					"$(PROJECT_DIR)/neopa-shop/UI/Alert/ios/Pods/Realm/core",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.neopa.neopa-shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -369,6 +446,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/neopa-shop/UI/Alert/ios/Pods/JB4ASDK/JB4A-SDK",
+					"$(PROJECT_DIR)/neopa-shop/UI/Alert/ios/Pods/Realm/core",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.neopa.neopa-shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";

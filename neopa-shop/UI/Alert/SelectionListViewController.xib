@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectionListViewController" customModule="TAKAQ_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="baseWindow" destination="3HB-kP-knX" id="yMj-bA-5CK"/>
+                <outlet property="tableView" destination="UWH-9G-uDa" id="sfa-eT-ge3"/>
+                <outlet property="titleLabel" destination="8OR-Io-lP9" id="92P-YR-xqj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-kP-knX" userLabel="ContainerView">
+                    <rect key="frame" x="37" y="173.5" width="300" height="320"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OR-Io-lP9">
+                            <rect key="frame" x="0.0" y="27" width="300" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM3-zt-9oU" customClass="ColorButton" customModule="TAKAQ_iOS" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="270" width="300" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="WSY-K9-yoN"/>
+                            </constraints>
+                            <state key="normal" title="キャンセル">
+                                <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                    <color key="value" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                    <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="pressCloseButton" destination="-1" eventType="touchUpInside" id="QjS-H5-aTg"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UWH-9G-uDa">
+                            <rect key="frame" x="12" y="68.5" width="276" height="188.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="188.5" id="URw-Am-zWA"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="jb1-bp-8N3"/>
+                                <outlet property="delegate" destination="-1" id="5e3-RH-1n4"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8OR-Io-lP9" secondAttribute="trailing" id="362-cU-zuG"/>
+                        <constraint firstItem="8OR-Io-lP9" firstAttribute="top" secondItem="3HB-kP-knX" secondAttribute="top" constant="27" id="Bbe-Lg-G9N"/>
+                        <constraint firstItem="UWH-9G-uDa" firstAttribute="leading" secondItem="3HB-kP-knX" secondAttribute="leading" constant="12" id="Fgc-rf-cnZ"/>
+                        <constraint firstItem="8OR-Io-lP9" firstAttribute="leading" secondItem="3HB-kP-knX" secondAttribute="leading" id="Ge4-dP-04B"/>
+                        <constraint firstAttribute="trailing" secondItem="UWH-9G-uDa" secondAttribute="trailing" constant="12" id="H4h-BE-XEq"/>
+                        <constraint firstItem="oM3-zt-9oU" firstAttribute="top" secondItem="UWH-9G-uDa" secondAttribute="bottom" constant="13" id="IUe-yq-NVa"/>
+                        <constraint firstItem="UWH-9G-uDa" firstAttribute="top" secondItem="8OR-Io-lP9" secondAttribute="bottom" constant="22" id="UYp-G7-Kbq"/>
+                        <constraint firstAttribute="bottom" secondItem="oM3-zt-9oU" secondAttribute="bottom" id="cjR-sy-z2M"/>
+                        <constraint firstItem="oM3-zt-9oU" firstAttribute="leading" secondItem="3HB-kP-knX" secondAttribute="leading" id="qa9-ht-JsC"/>
+                        <constraint firstAttribute="trailing" secondItem="oM3-zt-9oU" secondAttribute="trailing" id="rPI-E5-jw6"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="320" id="u0q-w7-Z4K"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3HB-kP-knX" secondAttribute="trailing" constant="38" id="b2U-eg-yJ5"/>
+                <constraint firstItem="3HB-kP-knX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="mjC-Vt-oPr"/>
+                <constraint firstItem="3HB-kP-knX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tJV-hQ-ApG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SingleButtonAlertViewController" customModule="TAKAQ_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="alertWindow" destination="Rva-4L-h14" id="YTS-n0-Qwn"/>
+                <outlet property="button" destination="qrA-5t-vSe" id="D9H-GA-qFw"/>
+                <outlet property="descriptionLabel" destination="Nij-PN-HGx" id="4Xb-8e-aPE"/>
+                <outlet property="titleLabel" destination="Mql-t6-307" id="eW4-vZ-N6u"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rva-4L-h14" userLabel="ContainerView">
+                    <rect key="frame" x="37" y="242" width="300" height="182"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mql-t6-307">
+                            <rect key="frame" x="0.0" y="27" width="300" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nij-PN-HGx">
+                            <rect key="frame" x="0.0" y="68.5" width="300" height="32.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrA-5t-vSe" customClass="ColorButton" customModule="TAKAQ_iOS" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="133" width="300" height="49"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="KRE-B8-yYE"/>
+                            </constraints>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                    <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                    <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="0.5" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="pressButon:" destination="-1" eventType="touchUpInside" id="9Eq-SQ-JoS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Nij-PN-HGx" secondAttribute="trailing" id="5d6-83-dDn"/>
+                        <constraint firstItem="qrA-5t-vSe" firstAttribute="leading" secondItem="Rva-4L-h14" secondAttribute="leading" id="9fJ-SJ-ZxQ"/>
+                        <constraint firstAttribute="bottom" secondItem="qrA-5t-vSe" secondAttribute="bottom" id="9jr-ee-XJy"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="182" id="9mv-4x-GoW"/>
+                        <constraint firstAttribute="trailing" secondItem="qrA-5t-vSe" secondAttribute="trailing" id="GmY-Hm-96N"/>
+                        <constraint firstItem="Nij-PN-HGx" firstAttribute="leading" secondItem="Rva-4L-h14" secondAttribute="leading" id="L5R-1l-ZDF"/>
+                        <constraint firstItem="qrA-5t-vSe" firstAttribute="top" secondItem="Nij-PN-HGx" secondAttribute="bottom" constant="32" id="Oez-cN-Pb3"/>
+                        <constraint firstItem="Mql-t6-307" firstAttribute="leading" secondItem="Rva-4L-h14" secondAttribute="leading" id="Sfz-7B-XhW"/>
+                        <constraint firstItem="Mql-t6-307" firstAttribute="top" secondItem="Rva-4L-h14" secondAttribute="top" constant="27" id="qMR-nN-yb9"/>
+                        <constraint firstItem="Nij-PN-HGx" firstAttribute="top" secondItem="Mql-t6-307" secondAttribute="bottom" constant="22" id="tGy-uY-x3B"/>
+                        <constraint firstAttribute="trailing" secondItem="Mql-t6-307" secondAttribute="trailing" id="wia-1F-7Ym"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Rva-4L-h14" secondAttribute="trailing" constant="38" id="EAp-ug-cgK"/>
+                <constraint firstItem="Rva-4L-h14" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dhx-y9-UGt"/>
+                <constraint firstItem="Rva-4L-h14" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="x9d-fo-inj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectableAlertViewController" customModule="TAKAQ_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="alertWindow" destination="ztQ-5y-yo1" id="bKv-cO-rpS"/>
+                <outlet property="descriptionLabel" destination="SRq-gL-dmk" id="cDi-7Q-28x"/>
+                <outlet property="leftButton" destination="mfN-i6-PfN" id="u4D-pW-IXX"/>
+                <outlet property="rightButton" destination="PnP-BL-WJ3" id="UWS-Hj-drd"/>
+                <outlet property="titleLabel" destination="KJR-3m-OFP" id="7pD-av-6Fg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztQ-5y-yo1" userLabel="ContainerView">
+                    <rect key="frame" x="37" y="243" width="300" height="182"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJR-3m-OFP">
+                            <rect key="frame" x="0.0" y="27" width="300" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRq-gL-dmk">
+                            <rect key="frame" x="0.0" y="68.5" width="300" height="32.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="t8E-jP-tSL">
+                            <rect key="frame" x="0.0" y="133" width="300" height="49"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfN-i6-PfN" customClass="ColorButton" customModule="TAKAQ_iOS" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="49"/>
+                                    <state key="normal" title="いいえ">
+                                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                            <color key="value" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                            <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="pressLeftButton:" destination="-1" eventType="touchUpInside" id="K4d-QA-FNh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnP-BL-WJ3" customClass="ColorButton" customModule="TAKAQ_iOS" customModuleProvider="target">
+                                    <rect key="frame" x="150" y="0.0" width="150" height="49"/>
+                                    <state key="normal" title="はい">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                            <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                            <color key="value" red="0.24705882352941178" green="0.72941176470588232" blue="0.84705882352941175" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="pressRightButton:" destination="-1" eventType="touchUpInside" id="hP9-Ss-mkJ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="7TD-sf-Pmm"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="KJR-3m-OFP" secondAttribute="trailing" id="AD5-0p-gQf"/>
+                        <constraint firstItem="t8E-jP-tSL" firstAttribute="top" secondItem="SRq-gL-dmk" secondAttribute="bottom" constant="32" id="Ao1-6e-jdn"/>
+                        <constraint firstAttribute="trailing" secondItem="t8E-jP-tSL" secondAttribute="trailing" id="HJA-B0-okf"/>
+                        <constraint firstAttribute="height" priority="750" constant="182" id="SBo-3r-bxn"/>
+                        <constraint firstAttribute="trailing" secondItem="SRq-gL-dmk" secondAttribute="trailing" id="Upq-GF-Fdc"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="182" id="V7t-Pg-cY8"/>
+                        <constraint firstItem="SRq-gL-dmk" firstAttribute="top" secondItem="KJR-3m-OFP" secondAttribute="bottom" constant="22" id="c0O-PT-Bkp"/>
+                        <constraint firstAttribute="bottom" secondItem="t8E-jP-tSL" secondAttribute="bottom" id="hRK-No-Rrz"/>
+                        <constraint firstItem="SRq-gL-dmk" firstAttribute="leading" secondItem="ztQ-5y-yo1" secondAttribute="leading" id="m1v-Ys-fYn"/>
+                        <constraint firstItem="KJR-3m-OFP" firstAttribute="leading" secondItem="ztQ-5y-yo1" secondAttribute="leading" id="mOL-qy-TlG"/>
+                        <constraint firstItem="KJR-3m-OFP" firstAttribute="top" secondItem="ztQ-5y-yo1" secondAttribute="top" constant="27" id="s9D-nB-a1N"/>
+                        <constraint firstItem="t8E-jP-tSL" firstAttribute="leading" secondItem="ztQ-5y-yo1" secondAttribute="leading" id="tiz-1D-epD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ztQ-5y-yo1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="C9I-2Q-aio"/>
+                <constraint firstItem="ztQ-5y-yo1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="TGp-Tk-2hJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ztQ-5y-yo1" secondAttribute="trailing" constant="38" id="i15-mW-0bn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

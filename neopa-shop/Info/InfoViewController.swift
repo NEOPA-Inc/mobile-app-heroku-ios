@@ -12,18 +12,20 @@ class InfoViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setTitle(title: "会員情報編集")
-        // Do any additional setup after loading the view.
+        
+        // TODO: テキストフィールドに入力開始したら自動でスクロール調整
+        // TODO: テキストフィールドでEnterキーを押したら次のテキストフィールドにカーソル移動
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // 画面をタップしたらキーボードをしまう
+        self.view.endEditing(true)
     }
-    */
+}
 
+class CustomScrollView: UIScrollView {
+    // スクロールゔビューでタッチイベントを取得する
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        superview?.touchesBegan(touches, with: event)
+    }
 }

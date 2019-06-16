@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickerButtonView" customModule="TAKAQ_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="AHj-dp-GlT" id="1d3-ss-qIY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5d-tT-xdw">
+                    <rect key="frame" x="0.0" y="0.0" width="178" height="48"/>
+                    <connections>
+                        <action selector="buttuonTapped:" destination="-1" eventType="touchUpInside" id="ryC-3t-1fw"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHj-dp-GlT">
+                    <rect key="frame" x="10" y="24" width="149" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_triangle" translatesAutoresizingMaskIntoConstraints="NO" id="MkH-hY-QGH">
+                    <rect key="frame" x="159" y="21" width="12" height="9"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="12" id="Cym-YX-Y1n"/>
+                        <constraint firstAttribute="height" constant="9" id="LEU-9y-XY4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="J5d-tT-xdw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7XH-fB-PIY"/>
+                <constraint firstItem="MkH-hY-QGH" firstAttribute="leading" secondItem="AHj-dp-GlT" secondAttribute="trailing" id="BmQ-Hs-04h"/>
+                <constraint firstItem="AHj-dp-GlT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Fhw-Vy-7yw"/>
+                <constraint firstItem="J5d-tT-xdw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Vwt-XQ-O7F"/>
+                <constraint firstItem="AHj-dp-GlT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="WJY-xn-V1S"/>
+                <constraint firstItem="J5d-tT-xdw" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ffH-D6-uJU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="J5d-tT-xdw" secondAttribute="bottom" id="gez-Fp-wVP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MkH-hY-QGH" secondAttribute="bottom" constant="18" id="jBX-Wh-vt3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MkH-hY-QGH" secondAttribute="trailing" constant="7" id="pIF-Ga-fN8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-19.199999999999999" y="-146.62668665667167"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_triangle" width="12" height="9"/>
+    </resources>
+</document>
